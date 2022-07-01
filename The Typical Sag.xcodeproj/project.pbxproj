@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD2850EA2863A06F006FA662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2850E92863A06F006FA662 /* AppDelegate.swift */; };
+		BD2850EC2863A06F006FA662 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2850EB2863A06F006FA662 /* SceneDelegate.swift */; };
+		BD2850EE2863A06F006FA662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2850ED2863A06F006FA662 /* ViewController.swift */; };
+		BD2850F12863A06F006FA662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2850EF2863A06F006FA662 /* Main.storyboard */; };
+		BD2850F42863A06F006FA662 /* The_Typical_Sag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD2850F22863A06F006FA662 /* The_Typical_Sag.xcdatamodeld */; };
+		BD2850F62863A071006FA662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2850F52863A071006FA662 /* Assets.xcassets */; };
+		BD2850F92863A071006FA662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2850F72863A071006FA662 /* LaunchScreen.storyboard */; };
+		BD2851042863A071006FA662 /* The_Typical_SagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2851032863A071006FA662 /* The_Typical_SagTests.swift */; };
+		BD28510E2863A071006FA662 /* The_Typical_SagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD28510D2863A071006FA662 /* The_Typical_SagUITests.swift */; };
+		BD2851102863A071006FA662 /* The_Typical_SagUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD28510F2863A071006FA662 /* The_Typical_SagUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD2851002863A071006FA662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD2850DE2863A06F006FA662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD2850E52863A06F006FA662;
+			remoteInfo = "The Typical Sag";
+		};
+		BD28510A2863A071006FA662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD2850DE2863A06F006FA662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD2850E52863A06F006FA662;
+			remoteInfo = "The Typical Sag";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD2850E62863A06F006FA662 /* The Typical Sag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Typical Sag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2850E92863A06F006FA662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD2850EB2863A06F006FA662 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BD2850ED2863A06F006FA662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD2850F02863A06F006FA662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD2850F32863A06F006FA662 /* The_Typical_Sag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = The_Typical_Sag.xcdatamodel; sourceTree = "<group>"; };
+		BD2850F52863A071006FA662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD2850F82863A071006FA662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD2850FA2863A071006FA662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2850FF2863A071006FA662 /* The Typical SagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Typical SagTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2851032863A071006FA662 /* The_Typical_SagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Typical_SagTests.swift; sourceTree = "<group>"; };
+		BD2851092863A071006FA662 /* The Typical SagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Typical SagUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD28510D2863A071006FA662 /* The_Typical_SagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Typical_SagUITests.swift; sourceTree = "<group>"; };
+		BD28510F2863A071006FA662 /* The_Typical_SagUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Typical_SagUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD2850E32863A06F006FA662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2850FC2863A071006FA662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2851062863A071006FA662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD2850DD2863A06F006FA662 = {
+			isa = PBXGroup;
+			children = (
+				BD2850E82863A06F006FA662 /* The Typical Sag */,
+				BD2851022863A071006FA662 /* The Typical SagTests */,
+				BD28510C2863A071006FA662 /* The Typical SagUITests */,
+				BD2850E72863A06F006FA662 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD2850E72863A06F006FA662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD2850E62863A06F006FA662 /* The Typical Sag.app */,
+				BD2850FF2863A071006FA662 /* The Typical SagTests.xctest */,
+				BD2851092863A071006FA662 /* The Typical SagUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD2850E82863A06F006FA662 /* The Typical Sag */ = {
+			isa = PBXGroup;
+			children = (
+				BD2850E92863A06F006FA662 /* AppDelegate.swift */,
+				BD2850EB2863A06F006FA662 /* SceneDelegate.swift */,
+				BD2850ED2863A06F006FA662 /* ViewController.swift */,
+				BD2850EF2863A06F006FA662 /* Main.storyboard */,
+				BD2850F52863A071006FA662 /* Assets.xcassets */,
+				BD2850F72863A071006FA662 /* LaunchScreen.storyboard */,
+				BD2850FA2863A071006FA662 /* Info.plist */,
+				BD2850F22863A06F006FA662 /* The_Typical_Sag.xcdatamodeld */,
+			);
+			path = "The Typical Sag";
+			sourceTree = "<group>";
+		};
+		BD2851022863A071006FA662 /* The Typical SagTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD2851032863A071006FA662 /* The_Typical_SagTests.swift */,
+			);
+			path = "The Typical SagTests";
+			sourceTree = "<group>";
+		};
+		BD28510C2863A071006FA662 /* The Typical SagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD28510D2863A071006FA662 /* The_Typical_SagUITests.swift */,
+				BD28510F2863A071006FA662 /* The_Typical_SagUITestsLaunchTests.swift */,
+			);
+			path = "The Typical SagUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD2850E52863A06F006FA662 /* The Typical Sag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2851132863A071006FA662 /* Build configuration list for PBXNativeTarget "The Typical Sag" */;
+			buildPhases = (
+				BD2850E22863A06F006FA662 /* Sources */,
+				BD2850E32863A06F006FA662 /* Frameworks */,
+				BD2850E42863A06F006FA662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Typical Sag";
+			productName = "The Typical Sag";
+			productReference = BD2850E62863A06F006FA662 /* The Typical Sag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD2850FE2863A071006FA662 /* The Typical SagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2851162863A071006FA662 /* Build configuration list for PBXNativeTarget "The Typical SagTests" */;
+			buildPhases = (
+				BD2850FB2863A071006FA662 /* Sources */,
+				BD2850FC2863A071006FA662 /* Frameworks */,
+				BD2850FD2863A071006FA662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD2851012863A071006FA662 /* PBXTargetDependency */,
+			);
+			name = "The Typical SagTests";
+			productName = "The Typical SagTests";
+			productReference = BD2850FF2863A071006FA662 /* The Typical SagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD2851082863A071006FA662 /* The Typical SagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2851192863A071006FA662 /* Build configuration list for PBXNativeTarget "The Typical SagUITests" */;
+			buildPhases = (
+				BD2851052863A071006FA662 /* Sources */,
+				BD2851062863A071006FA662 /* Frameworks */,
+				BD2851072863A071006FA662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD28510B2863A071006FA662 /* PBXTargetDependency */,
+			);
+			name = "The Typical SagUITests";
+			productName = "The Typical SagUITests";
+			productReference = BD2851092863A071006FA662 /* The Typical SagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD2850DE2863A06F006FA662 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BD2850E52863A06F006FA662 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BD2850FE2863A071006FA662 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BD2850E52863A06F006FA662;
+					};
+					BD2851082863A071006FA662 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BD2850E52863A06F006FA662;
+					};
+				};
+			};
+			buildConfigurationList = BD2850E12863A06F006FA662 /* Build configuration list for PBXProject "The Typical Sag" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD2850DD2863A06F006FA662;
+			productRefGroup = BD2850E72863A06F006FA662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD2850E52863A06F006FA662 /* The Typical Sag */,
+				BD2850FE2863A071006FA662 /* The Typical SagTests */,
+				BD2851082863A071006FA662 /* The Typical SagUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD2850E42863A06F006FA662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2850F92863A071006FA662 /* LaunchScreen.storyboard in Resources */,
+				BD2850F62863A071006FA662 /* Assets.xcassets in Resources */,
+				BD2850F12863A06F006FA662 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2850FD2863A071006FA662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2851072863A071006FA662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD2850E22863A06F006FA662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2850F42863A06F006FA662 /* The_Typical_Sag.xcdatamodeld in Sources */,
+				BD2850EE2863A06F006FA662 /* ViewController.swift in Sources */,
+				BD2850EA2863A06F006FA662 /* AppDelegate.swift in Sources */,
+				BD2850EC2863A06F006FA662 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2850FB2863A071006FA662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2851042863A071006FA662 /* The_Typical_SagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2851052863A071006FA662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD28510E2863A071006FA662 /* The_Typical_SagUITests.swift in Sources */,
+				BD2851102863A071006FA662 /* The_Typical_SagUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD2851012863A071006FA662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD2850E52863A06F006FA662 /* The Typical Sag */;
+			targetProxy = BD2851002863A071006FA662 /* PBXContainerItemProxy */;
+		};
+		BD28510B2863A071006FA662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD2850E52863A06F006FA662 /* The Typical Sag */;
+			targetProxy = BD28510A2863A071006FA662 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD2850EF2863A06F006FA662 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD2850F02863A06F006FA662 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD2850F72863A071006FA662 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD2850F82863A071006FA662 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD2851112863A071006FA662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD2851122863A071006FA662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD2851142863A071006FA662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "The Typical Sag/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.The-Typical-Sag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD2851152863A071006FA662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "The Typical Sag/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.The-Typical-Sag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD2851172863A071006FA662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.The-Typical-SagTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Typical Sag.app/The Typical Sag";
+			};
+			name = Debug;
+		};
+		BD2851182863A071006FA662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.The-Typical-SagTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Typical Sag.app/The Typical Sag";
+			};
+			name = Release;
+		};
+		BD28511A2863A071006FA662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.The-Typical-SagUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Typical Sag";
+			};
+			name = Debug;
+		};
+		BD28511B2863A071006FA662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kwk.The-Typical-SagUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Typical Sag";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD2850E12863A06F006FA662 /* Build configuration list for PBXProject "The Typical Sag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2851112863A071006FA662 /* Debug */,
+				BD2851122863A071006FA662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2851132863A071006FA662 /* Build configuration list for PBXNativeTarget "The Typical Sag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2851142863A071006FA662 /* Debug */,
+				BD2851152863A071006FA662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2851162863A071006FA662 /* Build configuration list for PBXNativeTarget "The Typical SagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2851172863A071006FA662 /* Debug */,
+				BD2851182863A071006FA662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2851192863A071006FA662 /* Build configuration list for PBXNativeTarget "The Typical SagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD28511A2863A071006FA662 /* Debug */,
+				BD28511B2863A071006FA662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD2850F22863A06F006FA662 /* The_Typical_Sag.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD2850F32863A06F006FA662 /* The_Typical_Sag.xcdatamodel */,
+			);
+			currentVersion = BD2850F32863A06F006FA662 /* The_Typical_Sag.xcdatamodel */;
+			path = The_Typical_Sag.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD2850DE2863A06F006FA662 /* Project object */;
+}
